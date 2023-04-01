@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.flex-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+.count-colour {
+  color: #ffd569;
+}
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 30px;
+  border-radius: 13px;
+  border-width: 0px;
+}
+.mango {
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+.flex-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  height: 30px;
+  margin: 6px;
+  width: 120px;
+  padding: 5px;
+  align-self: center;
+}
